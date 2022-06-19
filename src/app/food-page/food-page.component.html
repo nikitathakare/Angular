@@ -1,0 +1,46 @@
+<<!-- div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+    
+                <img [src]="foods.imageURL" [alt]="foods.name">
+
+
+                        
+                            
+                            
+                    
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h3>{{foods.name}}</h3>
+                    <p>{{foods.description}}</p>
+                    <h4>{{foods.price}}</h4>
+                </div>
+            <button (click)="addtocart()">Add To cart</button>
+        </div>
+
+        </div>
+    </div>
+    
+</div>
+
+ -->
+ <div class="container">
+ <div class="row">
+    <div class="column">
+        <img [src]="foods.imageURL" [alt]="foods.name"style="width:100%">
+    </div>
+    <div class="column" style=>
+        <h3 style="width:100%">{{foods.name}}</h3>
+        <p style="width:100%">{{foods.description}}</p>
+        <h4 style="width:100%">{{foods.price|currency :"INR"}}</h4>
+        <br>
+        <button class="btn btn-success"(click)="addtocart()" >Add To cart</button>
+
+    </div>
+   
+  </div>
+</div>

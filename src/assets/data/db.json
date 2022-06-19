@@ -1,0 +1,27 @@
+{
+    "products":[
+    {
+        "id" : "1",
+        "name": "jk",
+        "imageURL":"....",
+       "description": "jklmn",
+        "price": "200"
+    },
+    {
+        "id" : "2",
+        "name": "Min",
+        "imageURL":"....",
+       "description": "jklmn",
+        "price": "200"
+    },
+    {
+        "id" : "3",
+        "name": "jin",
+        "imageURL":"....",
+       "description": "jklmn",
+        "price": "200"
+    }
+
+
+]
+}

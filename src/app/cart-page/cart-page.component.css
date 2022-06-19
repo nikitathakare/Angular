@@ -1,0 +1,53 @@
+.container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 1.5rem;
+    margin-left: 20%;
+   
+
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    flex: 3 0;
+    border: 1px solid red;
+    border-radius: 1rem;
+    margin: .5rem;
+    padding: 0%;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+ul li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+}
+ul li img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100rem;
+    object-fit: cover;
+}
+.btn-3{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+
+}
+#total-price{
+    margin-left: 40%;
+    margin-right: 40%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+

@@ -1,0 +1,20 @@
+
+.card{
+    display: flex;
+    
+    text-align: center;
+    margin-top: 3rem;
+
+    justify-content: center;
+    text-align: center;
+    width: 35rem;
+    margin-left: 19rem;
+    background-color: turquoise;
+    border-radius: 1rem;
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem
+}
